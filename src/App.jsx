@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import HomePage from './pages/home';
 import AboutPage from './pages/about';
+import NotFoundPage from './pages/Not-Found';
 import Header from './components/Header';
 import { Routes, Route } from 'react-router';
 
@@ -58,6 +59,7 @@ const App = () => {
           }
         />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/*" element={<NotFoundPage />} />
       </Routes>
     </>
   );
