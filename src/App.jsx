@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import HomePage from './pages/home';
-import AboutPage from './pages/about';
+import HomePage from './pages/Home';
+import AboutPage from './pages/About';
 import NotFoundPage from './pages/Not-Found';
 import Header from './components/Header';
 import { Routes, Route } from 'react-router';
